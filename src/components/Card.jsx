@@ -6,10 +6,10 @@ function Card({width, start, para, hover}) {
     <div className={`bg-zinc-800 p-5 rounded-xl hover:${hover} ${width} min-h-[25rem] flex flex-col justify-between`}>
       <div className='w-full'>
       <div className='w-full flex justify-between items-center '>
-        <h3>one heading</h3>
+        <h3>Get in Touch</h3>
         <IoIosArrowRoundForward />
       </div>
-      <h3 className='text-3xl font-medium mt-5'>Whatever Heading</h3>
+      <h3 className='text-3xl font-medium mt-5'>Let's do it, together</h3>
       </div>
       <div className='down w-full'>
         {
